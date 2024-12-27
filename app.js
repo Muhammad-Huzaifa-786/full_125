@@ -15490,8 +15490,7 @@ const data = [
         "size":11,
         "quantity": 1
     }
-]
-const uniqueStyleCodes = [...new Set(data.map(item => item.style_code))].sort();
+]const uniqueStyleCodes = [...new Set(data.map(item => item.style_code))].sort();
 const uniqueBoxNumber = [...new Set(data.map(item => item.box_number))].sort((a, b) => a - b); // Numerical sort
 const AllArticleQuantity = uniqueStyleCodes.map(styleCode => {
     return data
