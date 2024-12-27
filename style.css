@@ -94,11 +94,18 @@ table tr td:first-child {
     overflow-x: auto;
 }
 
+#detailscompletearray{
+    overflow-x: auto !important;
+    height: 50px !important;
+    width: 90vw !important;
+    display: inline-block;
+    white-space: nowrap; /* Prevents wrapping of text */
 
+}
 input {
     margin-bottom: 20px;
     padding: 10px;
-    width: 140px;
+    width: 120px;
     font-size: 16px;
     background-color: #eaf7ff;
     /* Light blue tint */
@@ -177,6 +184,8 @@ button {
 .accordions-content {
     display: none;
     /* Initially hidden */
+    overflow: auto;
+
     padding: 10px;
     font-size: 20px;
     background-color: #fff;
@@ -274,4 +283,9 @@ button {
     color: #000;
     border: none;
     /* Darker blue on hover */
+}
+
+.abc{
+    color: blue;
+    font-size: 30px !important;
 }
